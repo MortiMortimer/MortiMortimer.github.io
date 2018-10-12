@@ -1,7 +1,7 @@
-/*@font-face {
-    font-family: Splat2 ;
-    src: url("Sp")
-}*/
+@font-face {
+    font-family: "Splat2";
+    src: url("assets/css/fonts/Splatfont2.ttf") format('truetype');
+}
 
 body {
   background-image: url("https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/bg-primary.jpg");
@@ -10,7 +10,9 @@ body {
   background-position: center;
 }
 #page-head {
-    font-family: Arial;
+    font-family: 'Splat2'Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
     font-size: 100px;
     color: white;
     text-shadow: 2px 2px darkslategrey;
