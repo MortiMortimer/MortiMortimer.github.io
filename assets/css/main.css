@@ -1,5 +1,10 @@
-
+body {
+  background-image: url("https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/bg-primary.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
 
 p {
-    color:red;
+    color:white;
 }
