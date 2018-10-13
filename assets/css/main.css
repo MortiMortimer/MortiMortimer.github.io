@@ -73,3 +73,22 @@ img, r {
   transform: rotate(2deg);
   padding: 10px;
 }
+.big-button {
+  font-size: 75px;
+  word-spacing: 525px;
+  position: relative;
+}
+.icons {
+  /*position: relative;*/
+  padding: 9px;
+  transition: transform 0.4s;
+}
+.icons:hover {
+  transform: scale(1.1);
+}
+.left {
+  padding-left: 75px;
+}
+.right {
+  padding-right: 75px;
+}
