@@ -50,10 +50,11 @@ body {
     font-size: 50px;
     color: white;
     text-shadow: 2px 2px darkslategrey;
+    text-align: center;
   }
 .col1 {
   position: relative;
-  margin-left: 215px;
+  margin-left: 2%;
   word-spacing: 215px;
 }
 .footer {
