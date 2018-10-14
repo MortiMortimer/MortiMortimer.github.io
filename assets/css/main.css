@@ -101,7 +101,7 @@ h2 {
   display: inline-block;
   position: relative;
   width: 200px;
-  padding: 32px;
+  padding: 25px;
 }
 
 .image {
@@ -124,7 +124,7 @@ h2 {
 }
 
 .video {
-  padding: 32px;
+  padding: 25px;
 }
 
 .container:hover .overlay {
