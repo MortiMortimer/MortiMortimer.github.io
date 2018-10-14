@@ -68,7 +68,7 @@ body {
   color: white;
   text-align: center;
 }
-img, r {
+r {
   float: right;
   transform: rotate(2deg);
   padding: 10px;
@@ -88,4 +88,60 @@ ul li {
 }
 li:hover {
   transform: scale(1.3);
+}
+h3 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 36px;
+}
+.page-sub {
+  text-align: center;
+}
+.container {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  padding: 32px;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fb49ff;
+}
+
+.video {
+  padding: 32px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.same-line {
+  display: inline-block;
 }
