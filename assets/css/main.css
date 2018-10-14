@@ -54,7 +54,6 @@ body {
   }
 .col1 {
   position: relative;
-  margin-left: 2%;
   word-spacing: 215px;
 }
 .footer {
@@ -76,7 +75,6 @@ r {
 }
 .big-button {
   font-size: 75px;
-  word-spacing: 525px;
   position: relative;
   border-bottom: 10px transparent;
   text-align: center;
