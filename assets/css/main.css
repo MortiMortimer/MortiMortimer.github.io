@@ -77,18 +77,15 @@ img, r {
   font-size: 75px;
   word-spacing: 525px;
   position: relative;
+  border-bottom: 10px transparent;
+  text-align: center;
 }
-.icons {
-  /*position: relative;*/
-  padding: 9px;
-  transition: transform 0.4s;
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 30px 40px;
+  transition: .5s;
 }
-.icons:hover {
-  transform: scale(1.1);
-}
-.left {
-  padding-left: 75px;
-}
-.right {
-  padding-right: 75px;
+li:hover {
+  transform: scale(1.3);
 }
