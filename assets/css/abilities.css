@@ -6,8 +6,7 @@ body {
 } 
 @media only screen and (max-width: 1000px) {
     body {
-        margin-left: 3vw;
-        margin-right: 3vw;
+        margin-left: 0 auto;
     }
     .base {
         border-radius: 25px;
