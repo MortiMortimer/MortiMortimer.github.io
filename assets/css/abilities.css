@@ -4,7 +4,29 @@ body {
     margin-left: 13vw;
     margin-right: 13vw;
 }
+@media screen and (max-width:800px) {
+    body {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+    .base {
+        border-radius: 25px;
+        background: #000000;
+        width: 550px;
+        height: 300px;
+        padding: 20px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'splatfont_2regular', Arial, sans-serif;
+        font-weight:normal;
+        font-style:normal;
+        font-size: 22px;
+        font-size-adjust: auto;
+        color: white;
+    }
 
+}
 .base {
     border-radius: 25px;
     background: #000000;
