@@ -55,12 +55,16 @@ img {
         font-family: 'splatfont_2regular', Arial, sans-serif;
         font-weight:normal;
         font-style:normal;
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-size-adjust: auto;
         color: white;
     }
 
     .same-line-a {
         padding: 0.5vw;
+    }
+
+    #ssu {
+        font-size: 62%;
     }
 }
