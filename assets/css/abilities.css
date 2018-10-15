@@ -12,7 +12,8 @@
     font-family: 'splatfont_2regular', Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
-    font-size: 22px;
+    font-size: 28px;
+    font-size-adjust: auto;
     color: white;
 }
 
