@@ -4,7 +4,7 @@ body {
     margin-left: 13vw;
     margin-right: 13vw;
 } 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     body {
         margin-left: 3vw;
         margin-right: 3vw;
@@ -21,7 +21,7 @@ body {
         font-family: 'splatfont_2regular', Arial, sans-serif;
         font-weight:normal;
         font-style:normal;
-        font-size: 22px;
+        font-size: 18px;
         font-size-adjust: auto;
         color: white;
     }
