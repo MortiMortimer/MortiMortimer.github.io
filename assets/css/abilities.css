@@ -1,9 +1,5 @@
 /*This file is for the abilities page*/
 
-.abilities {
-    opacity: 1;
-}
-
 .base {
     border-radius: 25px;
     background: #000000;
@@ -21,9 +17,6 @@
 }
 
 .first-left {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 400px;
 }
 
 .same-line-a {
@@ -34,11 +27,7 @@
     padding-right: 25px;
 }
 
-.ism {
-    opacity: 0;
-    transition: 0.2s ease;
-}
-
-.abilities:hover .ism{
-    opacity: 1;
+.ismtrig {
+    width: 96px;
+    height: 96px
 }
