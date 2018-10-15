@@ -47,7 +47,7 @@ img {
         border-radius: 25px;
         background: #000000;
         width: 65vw;
-        height: 300px;
+        height: 80%;
         padding: 20px;
         padding-bottom: 30px;
         margin: 0 auto;
@@ -60,4 +60,7 @@ img {
         color: white;
     }
 
+    .same-line-a {
+        padding: 0.2vw;
+    }
 }
