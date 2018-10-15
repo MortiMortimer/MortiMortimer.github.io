@@ -1,5 +1,10 @@
 /*This file is for the abilities page*/
 
+body {
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+
 .base {
     border-radius: 25px;
     background: #000000;
@@ -23,8 +28,9 @@ img {
 }
 
 .same-line-a {
-    display: inline-block;
-    padding: 15px;
+    
+    margin-left: 0 auto;
+    padding: 25px;
 }
 
 .ismtrig {
