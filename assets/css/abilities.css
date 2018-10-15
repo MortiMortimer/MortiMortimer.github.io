@@ -12,23 +12,22 @@
     font-family: 'splatfont_2regular', Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
-    font-size: 28px;
+    font-size: 22px;
     font-size-adjust: auto;
     color: white;
 }
 
-.first-left {
+img {
+    width: 56px; 
+    height: 56px;
 }
 
 .same-line-a {
-    padding-top: 30px;
-    padding-bottom: 30px;
     display: inline-block;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 15px;
 }
 
 .ismtrig {
-    width: 96px;
-    height: 96px
+    width: 56px;
+    height: 56px
 }
