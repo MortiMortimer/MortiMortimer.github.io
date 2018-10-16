@@ -62,6 +62,7 @@ img {
 
     .same-line-a {
         padding: 0.5vw;
+        margin-left: 0 auto;
     }
 
     #ssu {
