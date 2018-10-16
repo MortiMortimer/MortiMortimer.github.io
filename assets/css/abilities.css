@@ -40,8 +40,8 @@ img {
 
 @media only screen and (max-width: 800px) {
     body {
-        margin-left: 1vw;
-        margin-right: 1vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
     .base {
         border-radius: 25px;
@@ -62,7 +62,7 @@ img {
 
     .same-line-a {
         padding: 0.5vw;
-        margin-left: 0 auto;
+        margin-left: 1vw;
     }
 
     #ssu {
