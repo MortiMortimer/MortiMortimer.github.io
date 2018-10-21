@@ -16,10 +16,11 @@
 }
 
 .base {
+    padding-bottom: 56.25%;
     border-radius: 25px;
     background: #000000;
     width: 65vw;
-    height: 65vh;
+    height: 56.25%;
     padding: 20px;
     padding-bottom: 30px;
     margin: 0 auto;
@@ -34,7 +35,7 @@
 
 .base, img {
     width: 65vw;
-    height: 65vh;
+    height: 56.25%;
 }
 
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
