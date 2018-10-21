@@ -1,0 +1,40 @@
+.option {
+    border-radius: 25px;
+    background: #000000;
+    width: 7.4vw;
+    height: 7.4vw;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'splatfont_2regular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 1.7vw;
+    font-size-adjust: auto;
+    color: white;
+    display: inline-block;
+}
+
+.base {
+    border-radius: 25px;
+    background: #000000;
+    width: 65vw;
+    height: 65vh;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'splatfont_2regular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 22px;
+    font-size-adjust: auto;
+    color: white;
+}
+
+.base, img {
+    width: 65vw;
+    height: 65vh;
+}
+
+/*add media queries for 3:2 and 3:4 aspect ratios down the line*/

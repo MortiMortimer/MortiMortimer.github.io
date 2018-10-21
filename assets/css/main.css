@@ -53,8 +53,8 @@ body {
     text-align: center;
   }
 .col1 {
-  position: relative;
-  word-spacing: 215px;
+  margin-left: 0 auto;
+  word-spacing: 220px;
 }
 .footer {
   font-family: 'splatfont_2regular', Arial, sans-serif;
@@ -75,7 +75,7 @@ r {
 }
 .big-button {
   font-size: 75px;
-  position: relative;
+  margin-left: 0 auto;
   border-bottom: 10px transparent;
   text-align: center;
 }
