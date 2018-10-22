@@ -54,4 +54,42 @@
     color: white;
 }
 
+.left-box {
+    margin-left: 4vw;
+    border-radius: 25px;
+    background: #fff;
+    background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
+    background-repeat: repeat;
+    width: 80vw;
+    height: 30%;
+    padding: 50px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-family: 'splatfont_2regular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 22px;
+    font-size-adjust: auto;
+    color: #303030;
+}
+
+.right-box {
+    margin-left: 8vw;
+    border-radius: 25px;
+    background: #fff;
+    background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
+    background-repeat: repeat;
+    width: 80vw;
+    height: 30%;
+    padding: 50px;
+    padding-bottom: 30px;
+    text-align: right;
+    font-family: 'splatfont_2regular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 22px;
+    font-size-adjust: auto;
+    color: #303030;
+}
+
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
