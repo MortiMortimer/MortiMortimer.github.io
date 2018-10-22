@@ -55,12 +55,12 @@
 }
 
 .left-box {
-    margin-left: 4vw;
+    margin-left: 9vw;
     border-radius: 25px;
     background: #fff;
     background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
     background-repeat: repeat;
-    width: 80vw;
+    width: 30vw;
     height: 30%;
     padding: 50px;
     padding-bottom: 30px;
@@ -71,15 +71,16 @@
     font-size: 22px;
     font-size-adjust: auto;
     color: #303030;
+    display: inline-block;
 }
 
 .right-box {
-    margin-left: 8vw;
+    margin-left: 5vw;
     border-radius: 25px;
     background: #fff;
     background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
     background-repeat: repeat;
-    width: 80vw;
+    width: 30vw;
     height: 30%;
     padding: 50px;
     padding-bottom: 30px;
@@ -90,6 +91,7 @@
     font-size: 22px;
     font-size-adjust: auto;
     color: #303030;
+    display: inline-block;
 }
 
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
