@@ -259,17 +259,6 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $("#def").css({"opacity": "0", "display": "none"});
-    $(".deftrig").hover(function() {
-        $("#def").css({"opacity": "1", "display": "inline"});
-        $("#basic").css({"opacity": "0", "display": "none"});
-    }, function() {
-        $("#def").css({"opacity": "0", "display": "none"});
-        $("#basic").css({"opacity": "1", "display": "inline"});
-    });
-});
-
-$(document).ready(function() {
     $("#sub").css({"opacity": "0", "display": "none"});
     $(".subtrig").hover(function() {
         $("#sub").css({"opacity": "1", "display": "inline"});
