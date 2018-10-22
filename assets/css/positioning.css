@@ -94,4 +94,9 @@
     display: inline-block;
 }
 
+video {
+    width: 30vw;
+    height: 56.25%;
+    margin-left: 0 auto;
+}
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
