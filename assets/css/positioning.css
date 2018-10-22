@@ -100,12 +100,16 @@ video {
     margin-left: 0 auto;
 }
 
+.aggtrig {
+    margin-left: 30vw;
+}
+
 @media only screen and (max-width: 800px) {
     .option {
-        width: 10vw;
-        height: 10vw;
-        padding: 2px;
-        margin: 5px;
+        width: 20vw;
+        height: 20vw;
+        padding: 10px;
+        margin: 7px;
         font-size: 1.7vw;
         display: inline-block;
     }
@@ -135,7 +139,7 @@ video {
     .legend {
         border-radius: 25px;
         background: #000000;
-        width: 20vw;
+        width: 80vw;
         height: 56.25%;
         padding: 20px;
         padding-bottom: 30px;
@@ -150,22 +154,14 @@ video {
     }
     
     .left-box {
-        margin-left: 9vw;
+        margin-left: 5vw;
         border-radius: 25px;
-        background: #fff;
-        background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
-        background-repeat: repeat;
-        width: 30vw;
+        width: 90vw;
         height: 30%;
         padding: 50px;
         padding-bottom: 30px;
-        text-align: left;
-        font-family: 'splatfont_2regular', Arial, sans-serif;
-        font-weight:normal;
-        font-style:normal;
-        font-size: 22px;
-        font-size-adjust: auto;
-        color: #303030;
+        text-align: center;
+        font-size: 10px;
         display: inline-block;
     }
     
@@ -193,6 +189,10 @@ video {
         width: 30vw;
         height: 56.25%;
         margin-left: 0 auto;
+    }
+
+    .aggtrig {
+        margin-left: 25vw
     }
 }
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
