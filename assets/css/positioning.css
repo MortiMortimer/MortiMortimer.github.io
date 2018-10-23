@@ -196,7 +196,7 @@ video {
     }
 
     .mobile-only {
-        display: initial;
+        display: block;
         text-align: center;
         margin: 0 auto;
     }
