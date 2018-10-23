@@ -108,20 +108,9 @@ video {
     .option {
         width: 11vw;
         height: 3vh;
-        padding: 20px;
         margin: 7px;
         border-radius: 10px;
         font-size: 2vw;
-        vertical-align: center;
-    }
-
-    .option, span {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        height: 30%;
-        width: 50%;
-        margin: -15% 0 0 -25%;
     }
     
     .base {
@@ -162,30 +151,18 @@ video {
         font-size-adjust: auto;
         color: white;
     }
-    
-    .left-box {
-        margin-left: 5vw;
-        border-radius: 25px;
-        width: 90vw;
-        height: 30%;
-        padding: 50px;
-        padding-bottom: 30px;
-        text-align: center;
-        font-size: 10px;
-        display: inline-block;
-    }
-    
-    .right-box {
+
+    .left-box .right-box {
         margin-left: 5vw;
         border-radius: 25px;
         background: #fff;
         background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
         background-repeat: repeat;
-        width: 30vw;
+        width: 80vw;
         height: 30%;
         padding: 50px;
         padding-bottom: 30px;
-        text-align: right;
+        text-align: center;
         font-family: 'splatfont_2regular', Arial, sans-serif;
         font-weight:normal;
         font-style:normal;
@@ -196,7 +173,7 @@ video {
     }
     
     video {
-        width: 30vw;
+        width: 80vw;
         height: 56.25%;
         margin-left: 0 auto;
     }
