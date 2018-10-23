@@ -122,7 +122,7 @@ video {
     .base {
         border-radius: 25px;
         background: #000000;
-        width: 65vw;
+        width: 75vw;
         height: 56.25%;
         padding: 20px;
         padding-bottom: 30px;
@@ -159,12 +159,13 @@ video {
     }
 
     .left-box, .right-box {
+        margin-top: 2vh;
         margin-left: 5vw;
         border-radius: 25px;
         background: #fff;
         background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
         background-repeat: repeat;
-        width: 80vw;
+        width: 75vw;
         height: 30%;
         padding: 50px;
         padding-bottom: 30px;
@@ -175,7 +176,7 @@ video {
         font-size: 22px;
         font-size-adjust: auto;
         color: #303030;
-        display: inline-block;
+        display: block;
     }
     
     video {
