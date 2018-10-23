@@ -112,6 +112,7 @@ video {
         margin: 7px;
         border-radius: 10px;
         font-size: 2vw;
+        vertical-align: center;
     }
     
     .base {
