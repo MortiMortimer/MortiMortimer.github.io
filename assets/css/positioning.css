@@ -192,6 +192,11 @@ video {
     .mobile-only {
         display: initial;
         text-align: center;
+        margin-left: 0 auto;
+    }
+
+    .desktop-only {
+        display: none;
     }
 }
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
