@@ -200,7 +200,7 @@ video {
 }
 
 
-@media only screen and (min-device-pixel-ratio: 3) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
     .option {
         width: 11vw;
         height: 25px;
