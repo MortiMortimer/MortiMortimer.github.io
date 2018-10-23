@@ -104,6 +104,11 @@ video {
     margin-left: 30vw;
 }
 
+.mobile-only {
+    display: none;
+    text-align: center;
+}
+
 @media only screen and (max-width: 800px) {
     .option {
         width: 11vw;
@@ -181,6 +186,11 @@ video {
 
     .aggtrig {
         margin-left: 13vw
+    }
+
+    .mobile-only {
+        display: initial;
+        text-align: center;
     }
 }
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
