@@ -108,7 +108,8 @@ video {
     .option {
         width: 11vw;
         height: 3vh;
-        margin: 7px;
+        margin: 15px;
+        padding-bottom: 1vh;
         border-radius: 10px;
         font-size: 2vw;
     }
@@ -152,7 +153,7 @@ video {
         color: white;
     }
 
-    .left-box .right-box {
+    .left-box, .right-box {
         margin-left: 5vw;
         border-radius: 25px;
         background: #fff;
