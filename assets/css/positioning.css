@@ -103,7 +103,7 @@ video {
 @media only screen and (max-width: 800px) {
     .option {
         width: 11vw;
-        height: 50px;
+        height: 35px;
         /*margin: 15px;
         padding-bottom: 5px;*/
         border-radius: 10px;
@@ -178,7 +178,7 @@ video {
     }
 
     .aggtrig {
-        margin-left: 13vw
+        margin-left: 11vw
     }
 
     .left {
