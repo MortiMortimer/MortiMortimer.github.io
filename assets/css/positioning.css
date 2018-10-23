@@ -55,7 +55,7 @@
 }
 
 .box {
-    margin-left: 5vw;
+    margin-left: 6vw;
     margin-bottom: 2vh;
     border-radius: 25px;
     background: #fff;
@@ -77,7 +77,7 @@
 
 .left {
     text-align: left;
-    margin-left: 9vw;
+    margin-left: 10vw;
 }
 
 video {
@@ -87,7 +87,7 @@ video {
 }
 
 .aggtrig {
-    margin-left: 30vw;
+    margin-left: 33vw;
 }
 
 .mobile-only {
@@ -95,12 +95,17 @@ video {
     text-align: center;
 }
 
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 800px) {
     .option {
         width: 11vw;
-        height: 3vh;
-        margin: 15px;
-        padding-bottom: 5px;
+        height: 50px;
+        /*margin: 15px;
+        padding-bottom: 5px;*/
         border-radius: 10px;
         font-size: 2vw;
     }
@@ -180,12 +185,15 @@ video {
         text-align: left;
         margin-left: 2vw;
     }
+
     .mobile-only {
         display: block;
         text-align: center;
         margin: 0 auto;
     }
-
+    .subtitle{
+        font-size: 16px;
+    }
     .desktop-only {
         display: none;
     }
