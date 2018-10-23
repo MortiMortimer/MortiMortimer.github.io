@@ -107,7 +107,7 @@ video {
 @media only screen and (max-width: 800px) {
     .option {
         width: 13vw;
-        height: 8vw;
+        height: 4vw;
         padding: 20px;
         margin: 7px;
         border-radius: 10px;
@@ -192,7 +192,7 @@ video {
     }
 
     .aggtrig {
-        margin-left: 20vw
+        margin-left: 12vw
     }
 }
 /*add media queries for 3:2 and 3:4 aspect ratios down the line*/
