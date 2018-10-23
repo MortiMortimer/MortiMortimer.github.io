@@ -211,7 +211,7 @@ video {
     }
 
     .box {
-        margin-left: 1vw;
+        margin-left: 2vw;
         margin-bottom: 5vh;
         border-radius: 15px;
         background: #fff;
@@ -242,7 +242,7 @@ video {
 
     .left {
         text-align: left;
-        margin-left: 1vw;
+        margin-left: 2vw;
     }
 
     .mobile-only {
