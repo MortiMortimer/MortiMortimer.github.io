@@ -49,12 +49,12 @@
   @media only screen and (max-width: 900px) {
     .contain {
         position: relative;
-        width: 80vw
+        width: 95vw
       }
       
       .imag {
         display: block;
-        width: 80vw;
+        width: 95vw;
         height: 56.25%;
         border-radius: 15px
       }
@@ -67,7 +67,7 @@
         left: 0;
         right: 0;
         height: 100%;
-        width: 80vw;
+        width: 95vw;
         opacity: 0;
         transition: .5s ease;
         background-color: gray;
@@ -81,7 +81,7 @@
       }
       .tex {
         color: white;
-        font-size: 4vw;
+        font-size: 10vw;
         text-align: center;
         position: absolute;
         top: 50%;
@@ -91,6 +91,22 @@
       }
     
       .left {
-        margin-left: 1vw;
+        margin-left: 2.5vw;
       }
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+    .left {
+        margin-left: 0.7vw;
+      }
+
+    .imag {
+        width: 80vw;
+      }
+    .overl {
+        width: 80vw;
+    }
+    .contain {
+        width: 80vw;
+    }
   }
