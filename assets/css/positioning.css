@@ -203,7 +203,7 @@ video {
 @media only screen and (min-device-pixel-ratio: 3) { 
     .option {
         width: 11vw;
-        height: 35px;
+        height: 25px;
         /*margin: 15px;
         padding-bottom: 5px;*/
         border-radius: 10px;
@@ -258,7 +258,7 @@ video {
         background: #fff;
         background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
         background-repeat: repeat;
-        width: 70vw;
+        width: 65vw;
         height: 30%;
         padding: 50px;
         padding-bottom: 30px;
@@ -272,13 +272,13 @@ video {
         display: inline-block;
     }
     video {
-        width: 70vw;
+        width: 65vw;
         height: 56.25%;
         margin-left: 0 auto;
     }
 
     .aggtrig {
-        margin-left: 5vw
+        margin-left: 0 auto;
     }
 
     .left {
