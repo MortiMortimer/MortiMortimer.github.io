@@ -107,7 +107,7 @@ video {
 @media only screen and (max-width: 800px) {
     .option {
         width: 12.7vw;
-        height: 3.5vw;
+        height: 4vw;
         padding: 5px;
         margin: 7px;
         border-radius: 10px;
