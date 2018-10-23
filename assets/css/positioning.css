@@ -134,6 +134,7 @@ video {
         font-size: 22px;
         font-size-adjust: auto;
         color: white;
+        margin-left: 0 auto;
     }
     
     .base, img {
@@ -149,6 +150,7 @@ video {
         padding: 20px;
         padding-bottom: 30px;
         margin: 0 auto;
+        margin-left: 0 auto;
         text-align: center;
         font-family: 'splatfont_2regular', Arial, sans-serif;
         font-weight:normal;
