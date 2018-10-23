@@ -204,8 +204,8 @@ video {
     .option {
         width: 11vw;
         height: 25px;
-        /*margin: 15px;
-        padding-bottom: 5px;*/
+        margin: 5px;
+        padding-bottom: 5px;
         border-radius: 10px;
         font-size: 2vw;
     }
