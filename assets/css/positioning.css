@@ -54,8 +54,8 @@
     color: white;
 }
 
-.left-box {
-    margin-left: 9vw;
+.box {
+    margin-left: 5vw;
     margin-bottom: 2vh;
     border-radius: 25px;
     background: #fff;
@@ -75,25 +75,8 @@
     display: inline-block;
 }
 
-.right-box {
-    margin-left: 5vw;
-    margin-bottom: 2vh;
-    border-radius: 25px;
-    background: #fff;
-    background-image: url(https://raw.githubusercontent.com/DeviPotato/splat2-calc/master/common/assets/img/ui/bg-stripes.png);
-    background-repeat: repeat;
-    width: 30vw;
-    height: 30%;
-    padding: 50px;
-    padding-bottom: 30px;
-    text-align: right;
-    font-family: 'splatfont_2regular', Arial, sans-serif;
-    font-weight:normal;
-    font-style:normal;
-    font-size: 22px;
-    font-size-adjust: auto;
-    color: #303030;
-    display: inline-block;
+.left {
+    margin-left: 9vw;
 }
 
 video {
@@ -162,7 +145,7 @@ video {
         color: white;
     }
 
-    .left-box, .right-box {
+    .box {
         margin-left: 2vw;
         margin-bottom: 1vh;
         border-radius: 25px;
@@ -183,10 +166,6 @@ video {
         display: block;
     }
 
-    .left-box {
-        margin-top: 0vh;
-    }
-    
     video {
         width: 70vw;
         height: 56.25%;
@@ -197,6 +176,9 @@ video {
         margin-left: 13vw
     }
 
+    .left {
+        margin-left: 2vw;
+    }
     .mobile-only {
         display: block;
         text-align: center;
