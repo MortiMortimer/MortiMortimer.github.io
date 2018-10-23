@@ -110,6 +110,7 @@ video {
         height: 20vw;
         padding: 10px;
         margin: 7px;
+        border-radius: 10px;
         font-size: 1.7vw;
         display: inline-block;
     }
