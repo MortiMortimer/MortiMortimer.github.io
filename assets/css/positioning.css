@@ -180,6 +180,10 @@ video {
         color: #303030;
         display: block;
     }
+
+    .left-box {
+        margin-top: 0vh;
+    }
     
     video {
         width: 80vw;
