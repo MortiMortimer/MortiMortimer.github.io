@@ -2,7 +2,7 @@
     border-radius: 25px;
     background: #000000;
     width: 7.4vw;
-    height: 7.4vw;
+    height: 8vh;
     padding: 15px;
     margin: 20px;
     text-align: center;
@@ -87,7 +87,7 @@ video {
 }
 
 .basictrig {
-    margin-left: 18vw;
+    left: 25vw;
 }
 
 .mobile-only {
@@ -178,7 +178,7 @@ video {
     }
 
     .basictrig {
-        margin-left: 9vw
+        left: 9vw
         /* hey change this please can't check the ting on my devices rn*/
     }
 
@@ -201,10 +201,10 @@ video {
 }
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
     .option {
         width: 11vw;
-        height: 35px;
+        height: 11vh;
         margin: 5px;
         padding-bottom: 5px;
         border-radius: 10px;
@@ -238,7 +238,7 @@ video {
     }
 
     .basictrig {
-        margin-left: 2vw;
+        left: 2vw;
         /* hey change this please can't check the ting on my devices rn*/
     }
 
