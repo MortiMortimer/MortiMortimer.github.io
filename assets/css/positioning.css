@@ -86,8 +86,8 @@ video {
     margin-left: 0 auto;
 }
 
-.aggtrig {
-    margin-left: 33vw;
+.basictrig {
+    margin-left: 18vw;
 }
 
 .mobile-only {
@@ -109,7 +109,7 @@ video {
         border-radius: 10px;
         font-size: 2vw;
     }
-    
+
     .base {
         border-radius: 25px;
         background: #000000;
@@ -127,12 +127,12 @@ video {
         color: white;
         margin-left: 0 auto;
     }
-    
+
     .base, img {
         width: 75vw;
         height: 56.25%;
     }
-    
+
     .legend {
         border-radius: 25px;
         background: #000000;
@@ -177,8 +177,9 @@ video {
         margin-left: 0 auto;
     }
 
-    .aggtrig {
-        margin-left: 11vw
+    .basictrig {
+        margin-left: 9vw
+        /* hey change this please can't check the ting on my devices rn*/
     }
 
     .left {
@@ -200,7 +201,7 @@ video {
 }
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .option {
         width: 11vw;
         height: 35px;
@@ -236,8 +237,9 @@ video {
         margin-left: 0 auto;
     }
 
-    .aggtrig {
-        margin-left: 15vw;
+    .basictrig {
+        margin-left: 2vw;
+        /* hey change this please can't check the ting on my devices rn*/
     }
 
     .left {

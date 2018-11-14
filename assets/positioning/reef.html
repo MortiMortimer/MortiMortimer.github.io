@@ -2,9 +2,9 @@
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="abilities.js"></script> 
-  <link href='./assets/css/main.css' type='text/css' rel='stylesheet'>
-  <link href='./assets/css/positioning.css' type='text/css' rel='stylesheet'>
+  <script src="positioning.js"></script>
+  <link href='../css/main.css' type='text/css' rel='stylesheet'>
+  <link href='../css/positioning.css' type='text/css' rel='stylesheet'>
   <title>The Reef - E-Liter 4K Guide</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:title" content="The Reef" />
@@ -16,26 +16,28 @@
         The Reef
     </div>
     <div class="subtitle"><span class="mobile-only">Tap</span><span class="desktop-only">Hover</span> the images to open the videos!</div>
+    <div class="option basictrig">Map Callouts</div>
     <div class="option aggtrig">E-Liter Perches</div>
     <div class="option subtrig">Sub<br>Weapons</div>
     <div class="option spectrig">Special<br>Weapons</div>
+    <div class="option weptrig" id="weptrig">Unscoped E-Liter</div>
 
     <div class="base">
-        <img id="basic" src="https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/positioning/reef/reef-map.png">
-        <img id="aggro" src="https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/positioning/reef/perches.png">
-        <img id="sub" src="https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/positioning/reef/sub.png">
-        <img id="spec" src="https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/positioning/reef/specials.png">
-    </div>
+        <img id="basic" src="../img/positioning/reef/reef-map.png">
+        <img id="aggro" src="../img/positioning/reef/perches.png">
+        <img id="sub" src="../img/positioning/reef/sub.png">
+        <img id="spec" src="../img/positioning/reef/specials.png">
+  </div>
     <br>
     <div class="legend">
-        Pink is Ink Mines <br>
-        Green is Beakons <br>
-        Yellow is Bubbles <br>
-        Blue Arrow is Ink Storm
+        Pink Dots are Ink Mines <br>
+        Green Lines are Beakons <br>
+        Yellow Circles are Bubbles <br>
+        Blue Arrows are Ink Storm
     </div>
     <br>
-    <div class="box left" id="1">Perch 1 <br> This is the perch you'll see at the beginning of a match, 
-        use the ability to peek to your advantage! 
+    <div class="box left" id="1">Perch 1 <br> This is the perch you'll see at the beginning of a match,
+        use the ability to peek to your advantage!
         <br><br>
         <video loop onmouseover="this.paused ? this.play():this.pause();" onmouseout="this.pause();" >
             <source src="https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/positioning/reef/perch-1.mp4" type="video/mp4">
@@ -48,7 +50,7 @@
         </video>
     </div>
     <br class="desktop-only">
-    
+
     <div class="box left" id="3">Perch 3
         <br><br>
         <video loop onmouseover="this.paused ? this.play():this.pause();" onmouseout="this.pause();" >
@@ -62,7 +64,7 @@
         </video>
     </div>
     <br class="desktop-only">
-    
+
     <div class="box left" id="5">Perch 5
         <br><br>
         <video loop onmouseover="this.paused ? this.play():this.pause();" onmouseout="this.pause();" >
@@ -76,7 +78,7 @@
         </video>
     </div>
     <br class="desktop-only">
-    
+
     <div class="box left" id="7">Perch 7
         <br><br>
         <video loop onmouseover="this.paused ? this.play():this.pause();" onmouseout="this.pause();" >
@@ -90,7 +92,7 @@
         </video>
     </div>
     <br class="desktop-only">
-    
+
     <div class="box left" id="9">Perch 9
         <br><br>
         <video loop onmouseover="this.paused ? this.play():this.pause();" onmouseout="this.pause();" >
@@ -109,7 +111,7 @@
         <video loop onmouseover="this.paused ? this.play():this.pause();" onmouseout="this.pause();" >
             <source src="https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/positioning/reef/perch-11.mp4" type="video/mp4">
         </video>
-    </div>    
+    </div>
     <div class="box" id="12">Perch 12
         <br><br>
         <video loop onmouseover="this.paused ? this.play():this.pause();" onmouseout="this.pause();" >
@@ -120,13 +122,12 @@
 
 
     <div style="padding-top: 30px;" class="footer nav">
-        <p style="font-size: 30px;"><a href="positioning.html">Back to Maps</a></p>
-        <p><a href="index.html">Home</a> | 
-         <a href="basics.html">Basics</a>
-         | <a href="abilities.html">Abilities</a> | <a href="synergies.html">Case Studies</a></p>
+        <p style="font-size: 30px;"><a href="../..positioning.html">Back to Maps</a></p>
+        <p><a href="../../index.html">Home</a> |
+         <a href="../../basics.html">Basics</a>
+         | <a href="../../abilities.html">Abilities</a> | <a href="../../synergies.html">Case Studies</a></p>
        </div>
        <div class="footer nav">
-        <p><a href="https://twitter.com/mortimortimer">Twitter</a> | 
+        <p><a href="https://twitter.com/mortimortimer">Twitter</a> |
         <a href="https://discord.gg/HsYaTw2">Discord</a></p>
         </div>
-    
