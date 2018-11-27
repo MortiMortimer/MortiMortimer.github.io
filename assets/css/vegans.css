@@ -15,15 +15,15 @@ body {
     background-image: url("https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/vegans/bg-main.png");
     font-family: 'splatfont_2regular', Arial, sans-serif;
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .header {
-    margin-left: 0 auto;
-    font-size: 20vw;
+    margin: 0 auto;
+    font-size: 15vw;
     text-shadow: 2px 2px darkslategrey;
 }
 
 .subtitle{
-    margin-left: 0 auto;
+    margin: 0 auto;
 }
