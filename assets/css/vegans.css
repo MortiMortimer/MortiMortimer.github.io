@@ -19,6 +19,11 @@ body {
 }
 
 .header {
+    margin-left: 0 auto;
     font-size: 20vw;
     text-shadow: 2px 2px darkslategrey;
+}
+
+.subtitle{
+    margin-left: 0 auto;
 }
