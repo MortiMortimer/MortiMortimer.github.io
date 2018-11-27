@@ -25,5 +25,15 @@ body {
 }
 
 .subtitle {
-    margin-left: 4vw;
+    margin-left: 10vw;
+}
+
+.tig {
+    background-image: url("https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/vegans/tigbg.jpg");
+    opacity: 0.5;
+    background-color: purple;
+    font-size: 7vw;
+    margin-top: 5vh;
+    height: 22vh;
+    width: 56.25%;
 }
