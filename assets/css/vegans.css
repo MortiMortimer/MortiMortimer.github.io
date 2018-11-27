@@ -30,10 +30,9 @@ body {
 
 .tig {
     background-image: url("https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/vegans/tigbg.jpg");
-    opacity: 0.5;
+    opacity: 0.25;
     background-color: purple;
     font-size: 7vw;
-    margin-top: 5vh;
     height: 56.25%;
     width: 100vw;
 }
