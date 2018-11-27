@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'splatfont_2regular';
+    src: url('splatfont2.eot');
+    src: url('splatfont2.eot?#iefix') format('embedded-opentype'),
+         url('splatfont2.woff2') format('woff2'),
+         url('splatfont2.woff') format('woff'),
+         url('splatfont2.ttf') format('truetype'),
+         url('splatfont2.svg#splatfont_2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    
+}
