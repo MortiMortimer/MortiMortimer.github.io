@@ -13,5 +13,17 @@
 
 body {
     background-image: url("https://raw.githubusercontent.com/MortiMortimer/mortimortimer.github.io/master/assets/img/vegans/bg-main.png");
-    
+    font-family: 'splatfont_2regular', Arial, sans-serif;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 3vw;
+    }
+
+    .header {
+        font-size: 20vw;
+        text-shadow: 2px 2px darkslategrey;
+    }
 }
