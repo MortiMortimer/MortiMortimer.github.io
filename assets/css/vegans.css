@@ -31,9 +31,10 @@ body {
 .tig {
     background-color: purple;
     font-size: 4vw;
-    height: 50%;
+    height: 25%;
     width: 100%;
     margin: 5% 0 5% 0;
+    position: relative;
 }
 
 .bgimg {
@@ -41,10 +42,22 @@ body {
     object-fit: cover;
     border: none;
     width: 100%;
-    height: 100%;
+    height: 50%;
+    z-index: -1;
 }
 
 .chara {
+    position: absolute;
+    left: 0;
+    top: 0;
+    vertical-align: center;
     align-content: left;
-    margin-left: 7vw;
+    width: 50%;
+    height: 100%;
+}
+
+.tig text {
+    z-index: 10;
+    text-align: right;
+    font-size: 15vw;
 }
