@@ -28,12 +28,12 @@ body {
     margin-left: 10vw;
 }
 
+
 .tig {
     background-color: purple;
     font-size: 4vw;
     height: 25%;
-    width: 100%;
-    margin: 5% 0 5% 0;
+    width: 100vw;
     position: relative;
 }
 
@@ -43,21 +43,25 @@ body {
     border: none;
     width: 100%;
     height: 50%;
-    z-index: -1;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
 }
 
 .chara {
-    position: absolute;
     left: 0;
     top: 0;
     vertical-align: center;
     align-content: left;
     width: 50%;
     height: 100%;
+    z-index: 2
 }
 
-.tig text {
-    z-index: 10;
+.membername {
+    top: 0%;
+    left: 0%;
+    z-index: 3;
     text-align: right;
-    font-size: 15vw;
+    font-size: 10vw;
 }
